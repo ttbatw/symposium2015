@@ -1,0 +1,254 @@
+/*<!-- This CSS package applies Google styling; it should always be included. -->
+<!--link rel="stylesheet" href="https://googledrive.com/host/0BwCvmTdhG-wufkgwUFVGYUJEbm1halQ2dE5LOEM0LVdMT1pucnY1Snc3S0lGQTd6R0R6SDg/default.css"-->
+
+<style>*/
+@font-face {
+	font-family: 'iconmoon';
+	src:url('../fonts/iconmoon/icomoon.eot');
+	src:url('../fonts/iconmoon/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/iconmoon/icomoon.woff') format('woff'),
+		url('../fonts/iconmoon/icomoon.ttf') format('truetype'),
+		url('../fonts/iconmoon/icomoon.svg#iconmoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} /* Made with http://icomoon.io/ */
+/**, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }*/
+html { font-size: 90%; padding: 0% 5% 0.5% 5%; margin: 0; background-color: #F3F3F3;}
+
+body {
+    font: 1em sans-serif;
+    background-color: #fff;
+}
+
+header {
+	background-color: #F3F3F3;
+	padding: 1% 3%;
+}
+header > p {
+	clear: both;
+	color: #B22E43;
+	text-align: center;
+	padding-top: 1em;
+}
+header > p > a {
+	color: #050840;
+}
+header > img {
+	float: left;
+	padding-right: 1em;
+}
+header > .header_img{
+	float: left;
+}
+
+nav {
+	position: relative;
+	top: 50px;
+	
+	text-align: right;
+	font-size: 1.2em;
+}
+nav > a {
+	margin: 0 2%;
+	color: #050840;
+}
+nav > a.register_now {
+	color: #B22E43;
+	border: solid 2px #B22E43;
+	padding: 0.75em 0.85em;
+	display: inline-block;
+}
+nav > .register_now:hover {
+	background-color: #B22E43;
+	color: #FDECBD;
+}
+
+.seventy_width {
+	padding: 0 5%;
+	text-align: justify;
+	width: 53%;
+	float: left;
+	border: solid 0px;
+	border-right: dotted #B22E43 3px;
+	margin: 2% 0;
+}
+
+h1 {
+	color: #050840;
+	letter-spacing: 0.03em;
+	line-height: 1.3;
+	font-weight: 400;
+	padding-bottom: 0.5em; 
+}
+h2 {
+	color: #050840;
+	letter-spacing: 0.015em;
+	line-height: 1.3;
+	font-weight: 400;
+	font-size: 175%;
+}
+
+p, .content {
+	font-size: 1.4em;
+	color: #606060;
+	line-height: 1.5;
+}
+
+a {
+	color: #B22E43;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.blue_text {
+	color: #050840;
+}
+
+form {
+	font: sans-serif;
+	border: 0px solid;
+	width: 26%;
+	display: inline-block;
+	margin: 2% 0;
+	padding: 0 5%;
+	line-height: 1.5
+}
+
+input[type="file"] {
+	color: #2b2b2b;
+	font-size: 1.4em;
+	width: 100%;
+	color: #050840;
+	font: sans-serif;
+}
+input[type="button"] {
+	font-size: 1.2em;
+	background-color: #fff;
+	color: #B22E43; 
+	padding: 0.75em 1em;
+	border: solid 2px #B22E43;
+	margin-top: 2em;
+	letter-spacing: 0.15em;
+}
+input[type="button"]:hover {
+	background-color: #B22E43;
+	color: #FDECBD;
+}
+input[type="text"], input[type="email"] {
+	display: block;
+	width: 100%;
+	border: 1px solid #c0c0c0;
+	color: #363636;
+	font-size: 0.8em;
+	margin: 0;
+	padding: 0.25em;
+	font: sans-serif;
+	letter-spacing: 0.05em
+}
+input[type="text"]:focus, input[type="email"]:focus {
+	outline: none;
+	border: 1px solid #050840;
+	transition: 0.3s;
+}
+#absct_submit_button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#subm_reminder {
+	margin: 2%;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.note {
+	clear: both;
+	padding: 5% 5%;
+	
+}
+.note img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 1px #c0c0c0;
+}
+
+.header {
+
+}
+
+.back_to_top {
+	padding: 0.25em 5%;
+	font-size: 500%;
+	text-align: right;
+	color: #999999;
+	position: fixed;
+	top: 80%;
+	right: 2%;
+	opacity: 0;
+}
+.back_to_top a {
+	color: #D896A1;
+}
+.back_to_top a:hover {
+	text-decoration: none;
+	color: #BA4356;
+}
+
+.bp-icon:after {
+	font-family: 'iconmoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-align: center;
+	color: inherit;
+	-webkit-font-smoothing: antialiased;
+	font-size: 125%
+}
+
+.bp-icon-ctrl:after {
+	content: "\ea50";
+}
+@media screen and (max-width: 55em) {
+	
+	header > img {
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+	}
+	header > .header_img{
+		width: 100%;
+		text-align: center;
+	}
+	nav {
+		clear: both;
+		text-align: center;
+		position: relative;
+		top: 2em;
+	}
+	nav > a.normal {
+		display: inline-block;
+		width: 90%;
+		line-height: 3em;
+	}
+	header > p {
+		margin-top: 2em; 
+	}
+	.seventy_width {
+		width: 90%;
+		border-right: none;
+	}
+	form {
+		width: 90%;
+	}
+
+}
+
+/*</style>*/
